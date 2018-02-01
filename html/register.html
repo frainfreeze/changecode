@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container">  
+    <form id="contact" action="" method="post">
+        <h3>ChangeCode register</h3>
+        <h4>Returns next step of the challenge.</h4>
+        <fieldset>
+          <input placeholder="Team name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Password" type="text" tabindex="2" required>
+        </fieldset>
+        <h4>Member 1</h4>
+        <fieldset>
+          <input placeholder="Name" type="text" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Surname" type="text" tabindex="4" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Mail" type="text" tabindex="5" required>
+        </fieldset>
+  
+        <h4>Member 2</h4>
+        <fieldset>
+          <input placeholder="Name" type="text" tabindex="6" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Surname" type="text" tabindex="7" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Mail" type="text" tabindex="8" required>
+        </fieldset>
+  
+        <h4>Member 3</h4>
+        <fieldset>
+          <input placeholder="Name" type="text" tabindex="9" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Surname" type="text" tabindex="10" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Mail" type="text" tabindex="11" required>
+        </fieldset>
+  
+        <h4>Member 4</h4>
+        <fieldset>
+          <input placeholder="Name" type="text" tabindex="12" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Surname" type="text" tabindex="13" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Mail" type="text" tabindex="14" required>
+        </fieldset>      
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+
+        <fieldset>
+            <textarea id="output" style="width: 100%; height: 10em;"></textarea>
+        </fieldset>
+    </form>
+  </div>
+{% endblock %}
